@@ -8,10 +8,18 @@
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
   </head>
   <body>
-  <!-- Transparent div for title with spacing -->
-  <div style="text-align: center; margin-top: 30px; background-color: rgba(255, 255, 255, 0);">
-    <h1 style="font-size: 2.5em; margin-top: 10px;">ESSA VAULT</h1>
-  </div>
+    <nav>
+       <!-- Ajouter un div pour le logo -->
+       <div class="logo">
+        <img src="essavaultlogo.jpg" alt="Essa Vault Logo" />
+      </div>
+      <ul class="menu">
+        <li><a href="#!">Home</a></li>
+        <li><a href="#!">About</a></li>
+        <li><a href="#!">Contact</a></li>
+        <li><a href="#!">Faq</a></li>
+      </ul>
+    </nav>
     <!-- <model-viewer> HTML element -->
     <model-viewer src="jeuditest.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
       <div class="progress-bar hide" slot="progress-bar">
